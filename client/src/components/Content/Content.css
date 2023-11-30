@@ -1,0 +1,41 @@
+/* Content.css */
+
+/* Container for the entire Content component */
+.ContentContainer {
+    margin-top: 20px;
+  }
+  
+  /* Style for each content item in the list */
+  .ContentItem {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  
+  /* Style for the form to create new content */
+  .CreateContentForm {
+    margin-top: 20px;
+  }
+  
+  /* Style for input fields in the form */
+  .CreateContentForm input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+  }
+  
+  /* Style for the button in the form */
+  .CreateContentForm button {
+    background-color: #61dafb;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  /* Style for the button on hover */
+  .CreateContentForm button:hover {
+    background-color: #4285f4;
+  }
+  
