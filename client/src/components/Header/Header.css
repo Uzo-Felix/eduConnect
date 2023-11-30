@@ -1,0 +1,24 @@
+/* Style for the header */
+header {
+    background-color: #282c34;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  /* Style for the navigation links */
+  nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #61dafb;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
