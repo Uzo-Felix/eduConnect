@@ -1,0 +1,39 @@
+/* Container for the entire Users component */
+.UsersContainer {
+    margin-top: 20px;
+  }
+  
+  /* Style for each user item in the list */
+  .UserItem {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  
+  /* Style for the form to create new user */
+  .CreateUserForm {
+    margin-top: 20px;
+  }
+  
+  /* Style for input fields in the form */
+  .CreateUserForm input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+  }
+  
+  /* Style for the button in the form */
+  .CreateUserForm button {
+    background-color: #61dafb;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  /* Style for the button on hover */
+  .CreateUserForm button:hover {
+    background-color: #4285f4;
+  }
+  
