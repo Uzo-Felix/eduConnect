@@ -1,0 +1,39 @@
+/* Container for the entire Contributions component */
+.ContributionsContainer {
+    margin-top: 20px;
+  }
+  
+  /* Style for each contribution item in the list */
+  .ContributionItem {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  
+  /* Style for the form to create new contribution */
+  .CreateContributionForm {
+    margin-top: 20px;
+  }
+  
+  /* Style for input fields in the form */
+  .CreateContributionForm input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+  }
+  
+  /* Style for the button in the form */
+  .CreateContributionForm button {
+    background-color: #61dafb;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  /* Style for the button on hover */
+  .CreateContributionForm button:hover {
+    background-color: #4285f4;
+  }
+  
