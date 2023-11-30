@@ -1,0 +1,43 @@
+/* Register.css */
+
+/* Style for the Register component */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background-color: #61dafb;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #4285f4;
+  }
+  
