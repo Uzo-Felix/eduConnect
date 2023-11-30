@@ -1,0 +1,38 @@
+/* global.css */
+
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a global font family */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Set a background color for the entire app */
+body {
+  background-color: #f8f8f8;
+}
+
+/* Add some padding to the page content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style links */
+a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
