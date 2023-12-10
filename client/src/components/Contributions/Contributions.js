@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './Contributions.css'
 import { getAllContributions, createContribution } from '../../services/contributionService';
 
 function Contributions() {

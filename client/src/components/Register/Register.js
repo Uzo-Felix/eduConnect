@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './Register.css'
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -22,10 +23,8 @@ const Register = () => {
   };
 
   return (
-    <div className="container">
-      <h2>Register</h2>
       <form onSubmit={handleSubmit}>
-        <label>
+        {/* <label>
           Username:
           <input
             type="text"
@@ -55,12 +54,39 @@ const Register = () => {
             required
           />
         </label>
-        <button type="submit">Register</button>
+        <button type="submit">Register</button> */}
+        <div className="container">
+            <div class="sub-container">
+            <h1>Register</h1>
+            <input
+            type="text"
+            placeholder="Username"
+            name="username"
+            value={formData.username}
+            onChange={handleChange}
+            required
+            />
+            <input
+            type="email"
+            placeholder="Email ID" 
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+            />
+            <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            value={formData.password}
+            onChange={handleChange}
+            required
+            />
+            <button>Register</button>
+            <p>Already have an account? <Link to="/Login">Login</Link></p>
+            </div>
+            </div>
       </form>
-      <p>
-      Already have an account? <Link to="/login">Login here</Link>.
-    </p>
-    </div>
   );
 };
 

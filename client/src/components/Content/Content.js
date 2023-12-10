@@ -1,5 +1,5 @@
 // Content.js
-
+import './Content.css'
 import React, { useState, useEffect } from 'react';
 import { getAllContent, createContent } from '../../services/contentService';
 

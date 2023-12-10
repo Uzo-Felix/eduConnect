@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { getAllUsers, createUser } from '../../services/userService';
+import './Users.css';
 
 function Users() {
   const [users, setUsers] = useState([]);
